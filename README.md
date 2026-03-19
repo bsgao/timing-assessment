@@ -129,6 +129,8 @@ Optional: set `VITE_API_BASE_URL` in the frontend environment to point to a diff
 
 ## What I Could Improve
 
+Assuming this prototype is turned into a production-ready app, the next steps should focus on reliability, maintainability, and scalability.
+
 - Move the app to the cloud, including the backend deployment and a hosted database (instead of persisting to `backend/data/contacts.json` locally).
 - Implement CI/CD so every change automatically runs linting + tests, builds the frontend/backend, and deploys to staging/production.
 - Add automated tests to ensure the core functionality stays correct:
