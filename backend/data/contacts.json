@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Sarah Chen",
+    "email": "sarah@stripe.com",
+    "company": "Stripe",
+    "lastContactedDate": "2024-01-10",
+    "notes": "mentor"
+  },
+  {
+    "name": "Jake Patel",
+    "email": "jake@google.com",
+    "company": "Google",
+    "lastContactedDate": "2024-03-01",
+    "notes": "Long time no see"
+  },
+  {
+    "name": "Anna Rodriguez",
+    "email": "anna@yc.com",
+    "company": "Y Combinator",
+    "lastContactedDate": "2023-12-05",
+    "notes": "investor"
+  }
+]

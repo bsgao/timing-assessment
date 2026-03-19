@@ -1,0 +1,19 @@
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Node artifacts
+node_modules/
+**/node_modules/
+
+# Build artifacts
+dist/
+**/dist/
+
+# Logs
+*.log
+
+# Cursor workspace
+.cursor/
+
