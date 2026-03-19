@@ -127,3 +127,11 @@ Optional: set `VITE_API_BASE_URL` in the frontend environment to point to a diff
   - `frontend/src/App.tsx` (UI + CRUD + message generation wiring)
   - `frontend/src/api.ts` (API client)
 
+## What I Could Improve
+
+- Move the app to the cloud, including the backend deployment and a hosted database (instead of persisting to `backend/data/contacts.json` locally).
+- Implement CI/CD so every change automatically runs linting + tests, builds the frontend/backend, and deploys to staging/production.
+- Add automated tests to ensure the core functionality stays correct:
+  - backend unit tests for recommendation logic + message generation
+  - API/integration tests for CRUD + recommendations endpoints
+  - frontend tests (and optionally end-to-end tests) covering the main user flows
